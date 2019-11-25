@@ -826,5 +826,8 @@
 
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- Whether to use scaled brightness (set -1 to disable) -->
+    <integer name="config_useScaleBrightness">2047</integer>
 </resources>
 
