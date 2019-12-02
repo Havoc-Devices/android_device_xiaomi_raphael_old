@@ -46,7 +46,7 @@ void load_raphaelglobal() {
     property_override("ro.product.model", "Mi 9T Pro");
     property_override("ro.build.product", "raphael");
     property_override("ro.product.device", "raphael");
-    property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V11.0.3.0.QFKEUXM release-keys");
+    property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V11.0.1.0.QFKMIXM release-keys");
     property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
     property_override("ro.control_privapp_permissions", "log");
 }
@@ -64,11 +64,10 @@ void load_raphael() {
     property_override("ro.product.model", "Redmi K20 Pro");
     property_override("ro.build.product", "raphael");
     property_override("ro.product.device", "raphael");
-    property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V11.0.2.0.QFKCNXM release-keys");
+    property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V11.0.4.0.QFKCNXM release-keys");
     property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
     property_override("ro.control_privapp_permissions", "log");
 }
-
 
 void vendor_load_properties() {
     std::string region = android::base::GetProperty("ro.boot.hwc", "");
