@@ -19,6 +19,4 @@ PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := aosp_raphael
 
-BUILD_FINGERPRINT := "Xiaomi/raphael_eea/raphael:10/QKQ1.190825.002/V11.0.3.0.QFKEUXM:user/release-keys"
-
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
