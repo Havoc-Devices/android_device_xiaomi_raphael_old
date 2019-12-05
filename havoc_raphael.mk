@@ -6,17 +6,19 @@
 
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common Evolution X stuff.
-CUSTOM_BUILD_TYPE := OFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Havoc stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := raphael
+PRODUCT_MODEL := Redmi K20 Pro
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := aosp_raphael
+PRODUCT_DEVICE := raphael
+PRODUCT_NAME := havoc_raphael
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+export export
+HAVOC_BUILD_TYPE=Official
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=hacker1024

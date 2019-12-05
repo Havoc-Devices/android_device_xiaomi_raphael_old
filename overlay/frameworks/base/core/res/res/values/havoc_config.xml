@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Whether the device has outdated qti-telephony-common.jar -->
+    <bool name="config_oldQtiTelephony">false</bool>
+    
+    <!-- Hide the vendor mismatch dialog -->
+    <bool name="config_show_vendor_mismatch_message">false</bool>
+</resources>

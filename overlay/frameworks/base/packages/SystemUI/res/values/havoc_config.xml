@@ -21,8 +21,8 @@
     <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
 
     <!-- Max visible notification icons -->
-    <integer name="config_maxVisibleNotificationIcons">5</integer>
-    <integer name="config_maxVisibleNotificationIconsWhenDark">6</integer>
+    <integer name="config_maxVisibleNotificationIcons">12</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">12</integer>
 
     <!-- Doze: does this device support STATE_DOZE?  -->
     <bool name="doze_display_state_supported">true</bool>
