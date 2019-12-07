@@ -93,7 +93,8 @@ PRODUCT_BOOT_JARS += \
 # Init
 PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
-    init.qcom.rc
+    init.qcom.rc \
+    init.qcom.post_boot.sh
 
 # Input
 PRODUCT_COPY_FILES += \
