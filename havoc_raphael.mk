@@ -9,6 +9,9 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
+# Build Official
+export export HAVOC_BUILD_TYPE=Official
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := raphael
