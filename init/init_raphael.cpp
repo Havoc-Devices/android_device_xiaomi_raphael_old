@@ -74,5 +74,9 @@ void vendor_load_properties() {
     } else {
         LOG(ERROR) << __func__ << ": unexcepted region!";
     }
+
+    property_override("ro.bluetooth.a2dp_offload.supported", "false");
+    property_override("persist.bluetooth.a2dp_offload.disabled", "true");
+    property_override("persist.bluetooth.bluetooth_audio_hal.disabled", "true");
     property_override("ro.oem_unlock_supported", "0");
 }
