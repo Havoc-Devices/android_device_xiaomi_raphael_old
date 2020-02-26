@@ -163,4 +163,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Build Official
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=WajidKhan
+    ro.havoc.maintainer=hacker1024
