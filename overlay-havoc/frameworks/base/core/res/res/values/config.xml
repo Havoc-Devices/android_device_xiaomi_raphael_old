@@ -58,6 +58,9 @@
     <!-- Show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
 
+    <!-- Screen brightness when dozing. -->
+    <integer name="config_screenBrightnessDoze">90</integer>
+    
     <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
          the predefined and translated strings in the Settings
