@@ -36,4 +36,7 @@
     <!-- Whether the binned brightness sensor reports a value of 0 on proximity
          near events -->
     <bool name="doze_brightness_sensor_reports_proximity" translatable="false">false</bool>
+
+    <!-- Whether to use fingerprint pressed image -->
+    <bool name="config_fodPressedImage">true</bool>
 </resources>
